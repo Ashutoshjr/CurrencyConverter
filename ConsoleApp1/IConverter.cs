@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1
+{
+    public interface IConverter
+    {
+        string NumberToDollar(int number);
+
+        string NumberToCent(int cent);
+
+        string GetFinalResult(int cent, string strInput);
+
+
+    }
+}
